@@ -1,0 +1,91 @@
+<svg width="1440" height="800" viewBox="0 0 1440 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="800" fill="#111827"/>
+  
+  <!-- Grid pattern -->
+  <g opacity="0.2">
+    <path d="M0 50H1440" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M0 100H1440" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M0 150H1440" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M0 200H1440" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M0 250H1440" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M0 300H1440" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M0 350H1440" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M0 400H1440" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M0 450H1440" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M0 500H1440" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M0 550H1440" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M0 600H1440" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M0 650H1440" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M0 700H1440" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M0 750H1440" stroke="#6366F1" stroke-width="0.5"/>
+    
+    <path d="M50 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M100 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M150 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M200 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M250 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M300 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M350 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M400 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M450 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M500 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M550 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M600 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M650 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M700 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M750 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M800 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M850 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M900 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M950 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M1000 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M1050 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M1100 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M1150 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M1200 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M1250 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M1300 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M1350 0V800" stroke="#6366F1" stroke-width="0.5"/>
+    <path d="M1400 0V800" stroke="#6366F1" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Glowing circles -->
+  <circle cx="300" cy="250" r="100" fill="url(#glow1)" filter="blur(40px)"/>
+  <circle cx="1100" cy="550" r="120" fill="url(#glow2)" filter="blur(60px)"/>
+  <circle cx="700" cy="150" r="80" fill="url(#glow3)" filter="blur(30px)"/>
+  
+  <!-- Floating particles -->
+  <g opacity="0.6">
+    <circle cx="450" cy="300" r="3" fill="#A5B4FC"/>
+    <circle cx="720" cy="450" r="2" fill="#A5B4FC"/>
+    <circle cx="900" cy="200" r="4" fill="#A5B4FC"/>
+    <circle cx="1200" cy="350" r="3" fill="#A5B4FC"/>
+    <circle cx="200" cy="500" r="2" fill="#A5B4FC"/>
+    <circle cx="550" cy="650" r="3" fill="#A5B4FC"/>
+    <circle cx="800" cy="700" r="4" fill="#A5B4FC"/>
+    <circle cx="1050" cy="150" r="2" fill="#A5B4FC"/>
+    <circle cx="1300" cy="600" r="3" fill="#A5B4FC"/>
+    <circle cx="300" cy="100" r="2" fill="#A5B4FC"/>
+    <circle cx="600" cy="350" r="3" fill="#A5B4FC"/>
+    <circle cx="950" cy="500" r="2" fill="#A5B4FC"/>
+    <circle cx="1150" cy="250" r="4" fill="#A5B4FC"/>
+    <circle cx="400" cy="700" r="3" fill="#A5B4FC"/>
+    <circle cx="850" cy="600" r="2" fill="#A5B4FC"/>
+  </g>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 250) rotate(90) scale(100)">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1100 550) rotate(90) scale(120)">
+      <stop offset="0" stop-color="#14B8A6" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#14B8A6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(700 150) rotate(90) scale(80)">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
