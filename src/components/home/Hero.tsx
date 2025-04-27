@@ -129,13 +129,16 @@ export default function Hero() {
             <div className="relative w-full h-[400px] lg:h-[500px]">
               {/* Replace with your actual hero image */}
               <div className="absolute inset-0 flex items-center justify-center">
-  <div className="w-4/5 h-4/5 rounded-xl bg-gradient-to-br from-primary-500/20 to-secondary-500/20 backdrop-blur-sm border border-primary-500/30 shadow-glow animate-pulse-slow">
-    <img
+              <div className="w-4/5 h-4/5 rounded-xl bg-gradient-to-br from-primary-500/20 to-secondary-500/20 backdrop-blur-sm border border-primary-500/30 shadow-glow animate-pulse-slow">
+    <Image
       src="/images/zobli-hero.png"
       alt="Zobli Hero"
-      className="w-full h-full object-cover rounded-xl"
+      layout="fill" // Make it cover the div
+      objectFit="cover"
+      className="rounded-xl"
+      priority // Add priority for the LCP image
     />
-  </div>
+</div>
 </div>
 
               

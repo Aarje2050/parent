@@ -32,7 +32,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
-                <p className="text-gray-300">info@zobli.com</p>
+                <p className="text-gray-300">admin@zobli.com</p>
               </div>
             </div>
             
@@ -45,7 +45,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-2">Phone</h3>
-                <p className="text-gray-300">+1 (800) 123-4567</p>
+                <p className="text-gray-300">+919928028864</p>
               </div>
             </div>
             
@@ -59,7 +59,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-2">Address</h3>
-                <p className="text-gray-300">123 Innovation Way, Tech Park, CA 94103, USA</p>
+                <p className="text-gray-300">A9, Pratap nagar market, Chittorgarh, 312001 ,Rajasthan, India </p>
               </div>
             </div>
           </div>

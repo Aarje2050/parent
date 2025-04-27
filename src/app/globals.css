@@ -17,3 +17,72 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* Navigation Styles */
+
+/* Glass effect for mobile menu */
+.glass-effect {
+  background: rgba(17, 25, 40, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Primary button styling */
+.btn-primary {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+  color: #fff;
+  background: linear-gradient(90deg, var(--primary-500) 0%, var(--primary-600) 100%);
+  border-radius: 0.375rem;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(var(--primary-500-rgb), 0.3);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+/* Define CSS Variables for your theme */
+:root {
+  --primary-400: #4dabf7;
+  --primary-500: #339af0;
+  --primary-500-rgb: 51, 154, 240;
+  --primary-600: #1c7ed6;
+  --dark-800: #1e1e1e;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .btn-primary {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* Navigation link hover effect */
+.nav-link-hover {
+  position: relative;
+}
+
+.nav-link-hover::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--primary-500);
+  transition: width 0.3s ease;
+}
+
+.nav-link-hover:hover::after,
+.nav-link-active::after {
+  width: 100%;
+}

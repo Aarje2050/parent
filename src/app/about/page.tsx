@@ -1,3 +1,4 @@
+import Founders from '@/components/founders/Founders';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
@@ -172,121 +173,7 @@ export default function AboutPage() {
       </section>
       
       {/* Team section */}
-      <section className="py-16 md:py-24" id="team">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <span className="text-xl font-medium text-primary-400 mb-2 block">Our Team</span>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-              Meet the Innovators
-            </h2>
-            <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-              Our diverse team of experts brings together years of experience and a passion for innovation.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Team Member 1 */}
-            <div className="bg-gradient-to-br from-dark-700/80 to-dark-800/90 backdrop-blur-sm border border-dark-600/50 rounded-2xl shadow-lg hover:shadow-glow transition-all duration-300 p-6">
-              <div className="aspect-square relative rounded-lg overflow-hidden mb-4">
-                {/* Placeholder for team member image */}
-                <div className="w-full h-full bg-gradient-to-br from-dark-600 to-dark-700 flex items-center justify-center text-gray-400">
-                  Team Photo
-                </div>
-              </div>
-              
-              <h4 className="text-xl font-semibold text-white mb-1">
-                John Smith
-              </h4>
-              
-              <p className="text-primary-400 font-medium text-sm mb-3">
-                Founder & CEO
-              </p>
-              
-              <p className="text-gray-300 text-sm">
-                John has over 20 years of experience in the tech industry, with a focus on AI and machine learning.
-              </p>
-            </div>
-            
-            {/* Team Member 2 */}
-            <div className="bg-gradient-to-br from-dark-700/80 to-dark-800/90 backdrop-blur-sm border border-dark-600/50 rounded-2xl shadow-lg hover:shadow-glow transition-all duration-300 p-6">
-              <div className="aspect-square relative rounded-lg overflow-hidden mb-4">
-                {/* Placeholder for team member image */}
-                <div className="w-full h-full bg-gradient-to-br from-dark-600 to-dark-700 flex items-center justify-center text-gray-400">
-                  Team Photo
-                </div>
-              </div>
-              
-              <h4 className="text-xl font-semibold text-white mb-1">
-                Emma Johnson
-              </h4>
-              
-              <p className="text-primary-400 font-medium text-sm mb-3">
-                CTO
-              </p>
-              
-              <p className="text-gray-300 text-sm">
-                Emma leads our technical strategy and innovation initiatives with expertise in cloud computing.
-              </p>
-            </div>
-            
-            {/* Team Member 3 */}
-            <div className="bg-gradient-to-br from-dark-700/80 to-dark-800/90 backdrop-blur-sm border border-dark-600/50 rounded-2xl shadow-lg hover:shadow-glow transition-all duration-300 p-6">
-              <div className="aspect-square relative rounded-lg overflow-hidden mb-4">
-                {/* Placeholder for team member image */}
-                <div className="w-full h-full bg-gradient-to-br from-dark-600 to-dark-700 flex items-center justify-center text-gray-400">
-                  Team Photo
-                </div>
-              </div>
-              
-              <h4 className="text-xl font-semibold text-white mb-1">
-                Michael Chen
-              </h4>
-              
-              <p className="text-primary-400 font-medium text-sm mb-3">
-                Head of AI Solutions
-              </p>
-              
-              <p className="text-gray-300 text-sm">
-                Michael oversees our AI division, developing intelligent solutions that transform businesses.
-              </p>
-            </div>
-            
-            {/* Team Member 4 */}
-            <div className="bg-gradient-to-br from-dark-700/80 to-dark-800/90 backdrop-blur-sm border border-dark-600/50 rounded-2xl shadow-lg hover:shadow-glow transition-all duration-300 p-6">
-              <div className="aspect-square relative rounded-lg overflow-hidden mb-4">
-                {/* Placeholder for team member image */}
-                <div className="w-full h-full bg-gradient-to-br from-dark-600 to-dark-700 flex items-center justify-center text-gray-400">
-                  Team Photo
-                </div>
-              </div>
-              
-              <h4 className="text-xl font-semibold text-white mb-1">
-                Sophia Rodriguez
-              </h4>
-              
-              <p className="text-primary-400 font-medium text-sm mb-3">
-                Director of Operations
-              </p>
-              
-              <p className="text-gray-300 text-sm">
-                Sophia ensures the smooth operation of our company, managing resources and processes.
-              </p>
-            </div>
-          </div>
-          
-          <div className="mt-12 text-center">
-            <Link 
-              href="/careers" 
-              className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-primary-600 border border-transparent rounded-lg shadow-sm hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 transition-all duration-300 hover:shadow-glow"
-            >
-              Join Our Team
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-            </Link>
-          </div>
-        </div>
-      </section>
+      <Founders/>
       
       {/* Stats section */}
       <section className="py-16 md:py-24 bg-gradient-to-br from-primary-900/20 to-dark-900">
