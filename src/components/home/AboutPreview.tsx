@@ -37,7 +37,14 @@ export default function AboutPreview() {
               {/* Replace with your actual about image */}
               <div className="w-full h-full bg-gradient-to-br from-dark-700 to-dark-800 flex items-center justify-center">
                 <div className="text-gray-400">
-                  [About Image Placeholder]
+                <Image
+      src="/images/about-section.png"
+      alt="Zobli Hero"
+      layout="fill" // Make it cover the div
+      objectFit="cover"
+      className="rounded-xl"
+      priority // Add priority for the LCP image
+    />
                 </div>
               </div>
               <div className="absolute -top-6 -right-6 w-32 h-32 bg-primary-500/20 rounded-full blur-xl"></div>

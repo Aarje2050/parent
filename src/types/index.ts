@@ -53,3 +53,43 @@ export interface AnimatedSectionProps extends ComponentBaseProps {
   threshold?: number;
   once?: boolean;
 }
+
+// Domain availibility checker tool types STARTS
+export interface DomainResult {
+  domain: string;
+  available: boolean;
+  method: 'dns' | 'domainr';
+  keyword: string;
+  modifier: string;
+  tld: string;
+  checked: boolean;
+  loading: boolean;
+  error?: string;
+  prices?: {
+    godaddy?: number;
+    namecheap?: number;
+    google?: number;
+  };
+  suggestions?: string[];
+}
+
+export interface CheckMethod {
+  id: 'dns' | 'domainr';
+  name: string;
+  description: string;
+  icon: string;
+}
+
+export type TLD = {
+  id: string;
+  name: string;
+  popular?: boolean;
+};
+
+export interface PriceData {
+  registrar: string;
+  price: number;
+  currency: string;
+}
+
+// Domain availibility checker tool types ENDS//

@@ -1,6 +1,8 @@
 import Founders from '@/components/founders/Founders';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
+
 
 export const metadata: Metadata = {
   title: 'About Us | Zobli Innovations',
@@ -32,7 +34,14 @@ export default function AboutPage() {
             <div className="relative overflow-hidden rounded-2xl aspect-video">
               <div className="w-full h-full bg-gradient-to-br from-dark-700 to-dark-800 flex items-center justify-center">
                 <div className="text-gray-400 text-xl">
-                  About Image
+                <Image
+      src="/images/about-section.png"
+      alt="Zobli Hero"
+      layout="fill" // Make it cover the div
+      objectFit="cover"
+      className="rounded-xl"
+      priority // Add priority for the LCP image
+    />
                 </div>
               </div>
             </div>

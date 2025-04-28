@@ -12,6 +12,7 @@ const navItems = [
   { label: 'Services', path: '/services' },
   { label: 'Careers', path: '/careers' },
   { label: 'Contact', path: '/contact' },
+  {label: 'Tools', path: '/tools'}
 ];
 
 // Animation variants for mobile menu
