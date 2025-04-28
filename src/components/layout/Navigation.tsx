@@ -225,7 +225,7 @@ export default function Navigation({ isScrolled }: NavigationProps) {
           ))}
           <Link
             href="/contact"
-            className="py-2 px-5 bg-gradient-to-r from-brand-blue to-brand-purple rounded-md text-white font-medium hover:from-brand-blue-light hover:to-brand-purple-light transition-colors duration-300"
+            className="btn-primary ml-2"
           >
             Get Started
           </Link>
@@ -335,7 +335,7 @@ export default function Navigation({ isScrolled }: NavigationProps) {
               >
                 <Link
                   href="/contact"
-                  className="block w-full text-center py-2 mt-4 bg-gradient-to-r from-brand-blue to-brand-purple rounded-md text-white font-medium"
+                  className="btn-primary ml-2"
                 >
                   Get Started
                 </Link>
