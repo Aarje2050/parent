@@ -45,7 +45,7 @@ export default function Header() {
           </Link>
 
           {/* Navigation Component */}
-          <Navigation isScrolled={isScrolled} currentPath={pathname} />
+          <Navigation isScrolled={isScrolled} />
         </div>
       </div>
     </header>
